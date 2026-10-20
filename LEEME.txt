@@ -1,0 +1,52 @@
+CREA IMAGEN — Página web oficial (versión inicial)
+===================================================
+
+¿Qué contiene este proyecto?
+- index.html: página de inicio.
+- styles.css: colores, tamaños y diseño responsive.
+- script.js: pequeños comportamientos.
+- assets/: logotipo, imágenes de muestra e icono.
+- catalogo-crea-imagen.pdf: catálogo corregido para abrir desde la web.
+
+CÓMO VERLA ANTES DE PUBLICAR
+1. Descomprime el archivo ZIP.
+2. Haz doble clic en index.html.
+3. Se abrirá en tu navegador. Puedes probar los botones y el catálogo.
+
+CÓMO SUBIRLA A GITHUB POR PRIMERA VEZ
+1. Crea una cuenta en https://github.com si aún no tienes.
+2. Pulsa el signo + (arriba a la derecha) y selecciona "New repository".
+3. Nombre sugerido: crea-imagen-web.
+4. Selecciona "Public" y pulsa "Create repository".
+5. En el repositorio, pulsa "Add file" > "Upload files".
+6. Entra en la carpeta "crea-imagen-web" descomprimida y arrastra TODO SU CONTENIDO (NO la carpeta misma):
+   index.html, styles.css, script.js, LEEME.txt, catalogo-crea-imagen.pdf y la carpeta assets completa.
+7. Pulsa "Commit changes" para guardar los archivos.
+
+PUBLICACIÓN GRATUITA
+Para una web comercial, sugerimos conectar el repositorio de GitHub a Cloudflare Pages:
+1. Entra a https://dash.cloudflare.com y crea una cuenta gratis.
+2. En "Workers & Pages", selecciona "Create" > "Pages" > "Connect to Git".
+3. Autoriza GitHub, elige el repositorio crea-imagen-web y pulsa "Begin setup".
+4. Framework preset: "None" o "No framework".
+5. Build command: vacío. Build output directory: / o . (raíz del repositorio).
+6. Pulsa "Save and Deploy".
+7. Cloudflare te entregará una dirección pública terminada en .pages.dev.
+Nota: la pantalla de Cloudflare puede cambiar ligeramente.
+
+¡ESE es el enlace que grabas en la etiqueta NFC y conviertes en QR!
+No grabes el enlace local del archivo index.html.
+
+DATOS CONFIGURADOS
+WhatsApp: +57 300 841 1578
+Instagram: https://instagram.com/creaimagen_oficial/
+Correo: Karyreatividad@gmail.com
+
+PENDIENTES ANTES DE LA VERSIÓN FINAL
+- Ubicación exacta de Google Maps: por ahora el botón pide ubicación por WhatsApp.
+- Fotografías reales de trabajos: las imágenes del catálogo se muestran como referencias.
+- Si cambias el PDF, usa el mismo nombre "catalogo-crea-imagen.pdf" para que el botón siga funcionando.
+- NO tienes que volver a programar el NFC si editas el contenido de la web y la URL pública sigue siendo la misma.
+
+CONTACTO DEL NEGOCIO
+Crea Imagen — Diseño, impresión y personalizados.
