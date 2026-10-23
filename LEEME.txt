@@ -1,31 +1,35 @@
-PÁGINA WEB COMPLETA — CREA IMAGEN
-================================
+CREA IMAGEN | PÁGINA WEB COMPLETA — VERSIÓN ACTUALIZADA
+=======================================================
 
-Los archivos están organizados para subirlos directamente a tu repositorio:
-https://github.com/Creaimagen26/creaimagen
+ARCHIVOS
+- index.html: estructura y contenido de la página.
+- styles.css: diseño, colores, tipografías, adaptación móvil y el ajuste de los cuadros de imágenes.
+- script.js: menú móvil y cambio suave de las imágenes al desplazarse.
+- catalogo-crea-imagen.pdf: catálogo digital.
+- assets/: logo Crea Imagen, fotografías de referencia, salpicaduras 3D y favicon.
 
-CONTENIDO
-index.html — Página principal
-styles.css — Diseño para computador y celular
-script.js — Funciones
-catalogo-crea-imagen.pdf — Catálogo digital
-assets/ — Imágenes y logos usados por la página
+CÓMO ABRIR EN VS CODE
+1. Descomprime el ZIP.
+2. Abre Visual Studio Code.
+3. Selecciona Archivo > Abrir carpeta y abre la carpeta que contiene index.html.
+4. Instala Live Server (Ritwick Dey), si todavía no lo tienes.
+5. Haz clic derecho en index.html > Open with Live Server.
 
-CÓMO ACTUALIZAR TU GITHUB
-1. Descomprime este ZIP en tu computador.
-2. En GitHub, abre el repositorio Creaimagen26/creaimagen.
-3. Ve a Add file → Upload files.
-4. Abre la carpeta descomprimida y arrastra TODOS los archivos y la carpeta assets que están DENTRO.
-   ¡No arrastres la carpeta principal ni subas el ZIP sin extraer!
-5. Confirma los cambios en Commit changes.
-6. Comprueba que index.html esté en la raíz del repositorio y que los logos estén dentro de assets/.
-7. Espera la actualización de tu página pública y fuerza recarga con Ctrl+F5 si ves una versión anterior.
+PARA ACTUALIZAR GITHUB
+- Abre tu repositorio Creaimagen26/creaimagen.
+- Sube todo el contenido descomprimido a la RAÍZ del repositorio.
+- Reemplaza index.html, styles.css, script.js y los archivos de assets.
+- Confirma con Commit changes.
+- El repositorio debe tener index.html directamente en la raíz.
 
-La web tiene los textos eliminados a petición tuya; el logotipo pequeño se muestra completo y el logotipo central usa el archivo PNG de alta resolución.
+CAMBIOS INCORPORADOS
+1. Imágenes de servicios más grandes, recortadas de forma proporcionada para llenar el marco.
+2. Título “Todo lo que imaginas, podemos crearlo” con tamaño, espaciado y altura de línea mejorados.
+3. Logotipo de Crea Imagen en archivo PNG de 4857 × 2913 píxeles y visualización mejorada.
+4. Se conserva la distribución dividida en ordenador y vertical en móvil.
 
-CONTACTO CONFIGURADO
-WhatsApp: 300 841 1578
-Instagram: creaimagen_oficial
-Correo: Karyreatividad@gmail.com
-
-El botón de ubicación sigue solicitando Maps por WhatsApp hasta que tengamos el enlace exacto.
+NOTAS
+- El botón Ver catálogo abre catalogo-crea-imagen.pdf que va incluido en esta carpeta.
+- El botón de ubicación utiliza una búsqueda en Google Maps hasta que tengamos tu enlace exacto.
+- El logotipo es una imagen rasterizada; tener más píxeles no elimina todos los detalles de pixelado presentes en el original.
+- Para NFC/QR utiliza la URL pública de la web una vez publicada, NO una dirección local 127.0.0.1.
