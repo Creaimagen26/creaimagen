@@ -1,28 +1,24 @@
-CREA IMAGEN — PAGINA WEB COMPLETA CON LOGO OFICIAL
+CREA IMAGEN — Proyecto completo actualizado (23 de octubre de 2026)
 
-1. Dentro de esta carpeta deben quedar:
-   index.html
-   styles.css
-   script.js
-   catalogo-crea-imagen.pdf
-   assets/ (todas las imagenes y el logo)
+La MISMA versión funciona en Visual Studio Code y en GitHub Pages.
 
-2. Para abrir en VS Code: Archivo > Abrir carpeta > selecciona ESTA carpeta.
-   Abre index.html con Live Server.
+PARA VS CODE:
+1. Extrae todo el ZIP.
+2. Abre la carpeta extraída desde Archivo > Abrir carpeta.
+3. Haz clic derecho en index.html > Open with Live Server.
 
-3. Para subir a GitHub:
-   Repositorio Creaimagen26/creaimagen > Code > Add file > Upload files.
-   Arrastra el CONTENIDO de esta carpeta, no la carpeta exterior ni el ZIP.
-   Confirma que index.html quede en la raiz y que assets/ conserve sus rutas.
-   Finalmente Commit changes.
+PARA ACTUALIZAR GITHUB:
+1. Ve al repositorio Creaimagen26/creaimagen.
+2. Code > Add file > Upload files.
+3. Sube TODOS los archivos y la carpeta assets que están DENTRO de la carpeta del proyecto; NO subas el ZIP ni la carpeta contenedora.
+4. Comprueba que index.html y styles.css queden en la raíz, y assets/ contenga las imágenes.
+5. Guarda con Commit changes en main.
+6. Una vez publicado, usa Ctrl+Shift+R en el navegador para evitar la caché.
 
-4. LOGO:
-   assets/logo-creaimagen.png = copia EXACTA, sin recompresion, de la imagen que entregaste.
-   assets/logo-oficial-original.png = copia identica de respaldo.
-   No necesitas convertirlo a JPG o WEBP ni reducirlo para usarlo en la web.
+Correcciones:
+- Título de servicios: tipografía DM Sans, mejor espaciado; ya no queda comprimido.
+- Imágenes de servicios: se muestran completas sin cortes, con fondo difuminado que rellena el marco.
+- Logo: archivo PNG oficial suministrado por Crea Imagen, sin volver a comprimir ni recortar.
+- Conserva los botones, catálogo, animación de cambio de imágenes y datos de contacto.
 
-5. Los botones de catalogo abren el PDF incluido. Whatsapp: 3008411578
-   Instagram: @creaimagen_oficial, correo: Karyreatividad@gmail.com.
-   La ubicacion es una BUSQUEDA en Maps; reemplaza el enlace cuando tengas el del negocio.
-
-Si ves la version anterior despues de subirla, utiliza Ctrl+Shift+R en Chrome.
+La ubicación es un enlace de búsqueda general mientras no se proporcione una ficha exacta de Google Maps.

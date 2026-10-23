@@ -252,3 +252,64 @@ svg{fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-l
   .viewer-image{object-fit:cover}
   .story-mobile-image{max-height:540px}
 }
+
+
+/* Correcciones de lectura y presentación — 23 oct 2026 */
+/* No comprimir la tipografía del titular de servicios. */
+.services-intro .section-heading{align-items:center;column-gap:38px;row-gap:22px}
+.services-intro .section-heading>div{min-width:0;max-width:780px}
+.services-intro .service-title{
+  font-family:'DM Sans',Arial,sans-serif;
+  font-size:clamp(36px,3.85vw,55px);
+  font-weight:800;
+  letter-spacing:-.025em;
+  line-height:1.18;
+  max-width:none;
+  text-wrap:balance;
+}
+.service-title-line{display:block;white-space:normal;overflow-wrap:normal;padding:0 0 .08em}
+.service-title-line+.service-title-line{margin-top:10px}
+.service-title-color{
+  background:linear-gradient(95deg,#ff3b9d 0%,#e9a233 35%,#83bb81 67%,#15b7de 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.services-intro .section-heading p{width:min(100%,340px);max-width:340px;line-height:1.75;margin-bottom:0;flex:none}
+
+/* La imagen completa es visible. El fondo desenfocado llena el marco sin cortarla. */
+.viewer-frame{isolation:isolate;background:#111b2b}
+.viewer-backdrop{
+  position:absolute;inset:-22px;width:calc(100% + 44px);height:calc(100% + 44px);
+  display:block;object-fit:cover;object-position:center center;
+  opacity:0;transform:scale(1.08);
+  filter:blur(21px) brightness(.56) saturate(.85);
+  transition:opacity .65s ease;
+  pointer-events:none;z-index:0;
+}
+.viewer-backdrop.is-visible{opacity:1}
+.viewer-image{
+  position:absolute;inset:12px 10px 66px;
+  width:calc(100% - 20px);height:calc(100% - 78px);
+  padding:0;object-fit:contain;object-position:center center;
+  border-radius:10px;
+  filter:drop-shadow(0 8px 20px rgba(0,0,0,.3));
+  z-index:1;opacity:0;
+  transform:none;transition:opacity .65s ease;
+}
+.viewer-image.is-visible{opacity:1;transform:none}
+.viewer-frame::after{background:linear-gradient(180deg,transparent 80%,rgba(4,10,19,.9) 100%);z-index:2}
+.viewer-caption{z-index:3;bottom:23px}
+.story-mobile-image{object-fit:contain;object-position:center;aspect-ratio:1191 / 1684;max-height:none;height:auto;padding:0}
+
+/* En tablet y móvil separar titulares y dejar los pósters completos */
+@media(max-width:1080px){
+  .services-intro .section-heading{display:block}
+  .services-intro .section-heading p{max-width:570px;width:100%;margin-top:22px}
+}
+@media(max-width:840px){
+  .story-mobile-image{display:block;object-fit:contain;aspect-ratio:1191 / 1684;height:auto;max-height:none;padding:0}
+}
+@media(max-width:620px){
+  .services-intro .service-title{font-size:clamp(32px,8.8vw,43px);letter-spacing:-.018em;line-height:1.22}
+  .service-title-line+.service-title-line{margin-top:8px}
+  .story-mobile-image{max-height:none;aspect-ratio:1191 / 1684}
+}

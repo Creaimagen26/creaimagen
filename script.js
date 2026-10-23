@@ -21,6 +21,7 @@
 
   const storySteps = [...document.querySelectorAll('.story-step')];
   const previews = [...document.querySelectorAll('.viewer-image')];
+  const backdrops = [...document.querySelectorAll('.viewer-backdrop')];
   const caption = document.querySelector('#viewer-caption');
   const counter = document.querySelector('#viewer-counter');
   const names = ['GRAN FORMATO', 'PERSONALIZADOS', 'LETREROS NEÓN', 'IMPRESIÓN 3D', 'CORTE LÁSER'];
@@ -29,6 +30,7 @@
     if (index === current || index < 0 || index >= previews.length) return;
     current = index;
     previews.forEach((image, i) => image.classList.toggle('is-visible', i === index));
+    backdrops.forEach((image, i) => image.classList.toggle('is-visible', Number(image.dataset.backdrop) === index));
     storySteps.forEach((step, i) => step.classList.toggle('is-current', i === index));
     if (caption) caption.textContent = names[index];
     if (counter) counter.textContent = `${String(index + 1).padStart(2, '0')} / 05`;
