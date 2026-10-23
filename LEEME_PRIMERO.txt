@@ -1,24 +1,17 @@
-CREA IMAGEN — Proyecto completo actualizado (23 de octubre de 2026)
+CREA IMAGEN - WEB PARA GITHUB PAGES Y VS CODE
 
-La MISMA versión funciona en Visual Studio Code y en GitHub Pages.
+1. Entra a github.com/Creaimagen26/creaimagen
+2. Asegura que estás en main, pestaña Code.
+3. Add file -> Upload files.
+4. Sube index.html y catalogo-crea-imagen.pdf (ambos al nivel principal, NO una carpeta).
+5. Commit changes en main.
+6. Comprueba en Settings -> Pages que diga Deploy from a branch, main, /(root).
+7. Espera el despliegue. Luego recarga con Ctrl+Shift+R en la web.
 
-PARA VS CODE:
-1. Extrae todo el ZIP.
-2. Abre la carpeta extraída desde Archivo > Abrir carpeta.
-3. Haz clic derecho en index.html > Open with Live Server.
+IMPORTANTE: Todos los logos, ilustraciones, CSS y JavaScript están DENTRO de index.html.
+No necesitas subir la carpeta assets: así se evitan rutas de imágenes rotas.
+Solo el catálogo PDF es externo y se incluye.
 
-PARA ACTUALIZAR GITHUB:
-1. Ve al repositorio Creaimagen26/creaimagen.
-2. Code > Add file > Upload files.
-3. Sube TODOS los archivos y la carpeta assets que están DENTRO de la carpeta del proyecto; NO subas el ZIP ni la carpeta contenedora.
-4. Comprueba que index.html y styles.css queden en la raíz, y assets/ contenga las imágenes.
-5. Guarda con Commit changes en main.
-6. Una vez publicado, usa Ctrl+Shift+R en el navegador para evitar la caché.
+Para VS Code: abre esta carpeta y ejecuta index.html con Live Server.
 
-Correcciones:
-- Título de servicios: tipografía DM Sans, mejor espaciado; ya no queda comprimido.
-- Imágenes de servicios: se muestran completas sin cortes, con fondo difuminado que rellena el marco.
-- Logo: archivo PNG oficial suministrado por Crea Imagen, sin volver a comprimir ni recortar.
-- Conserva los botones, catálogo, animación de cambio de imágenes y datos de contacto.
-
-La ubicación es un enlace de búsqueda general mientras no se proporcione una ficha exacta de Google Maps.
+El logo conserva los bytes originales del archivo suministrado.
